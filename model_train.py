@@ -3,7 +3,7 @@ from sklearn.preprocessing import LabelEncoder
 from sklearn.model_selection import train_test_split  
 from sklearn.linear_model import LinearRegression
 from sklearn.metrics import mean_squared_error, r2_score   
-df = pd.read_csv("/Users/aryanguptasamanagmail.com/Desktop/ML OPS/House Price Prediction Dataset.csv")
+df = pd.read_csv("https://github.com/yashraj17-ops/Ml-project-1/blob/main/House%20Price%20Prediction%20Dataset%20(1).csv")
 print(type(df))
 df.info()
 df.isna().sum()
